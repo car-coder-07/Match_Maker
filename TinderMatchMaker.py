@@ -17,11 +17,11 @@ MIN_MATCH_COUNT = 30
 while Match_found == False:
     time.sleep(0.35)
     #image from tinder page
-    pyautogui.screenshot(r"C:\Users\Saivardhan Baddela\Desktop\Tinder\my_screenshot.jpg", region=(952, 165, 506, 472))
+    pyautogui.screenshot("my_screenshot.jpg", region=(952, 165, 506, 472)) #takes screenshot of the profile image region
     time.sleep(0.01)
     #comparing the features
-    img1 = cv.imread(r"C:\Users\Saivardhan Baddela\Desktop\Tinder\test_1.jpg",0)    # query Image
-    img2 = cv.imread(r"C:\Users\Saivardhan Baddela\Desktop\Tinder\my_screenshot.jpg",0) # train Image
+    img1 = cv.imread("saved_image.jpg",0)    # query Image
+    img2 = cv.imread("my_screenshot.jpg",0) # train Image
     # Initiate SIFT detector
     sift = cv.SIFT_create()
     # find the keypoints and descriptors with SIFT
@@ -56,7 +56,7 @@ while Match_found == False:
                        flags = 2)
         img3 = cv.drawMatches(img1,kp1,img2,kp2,good,None,**draw_params)
         plt.imshow(img3, 'gray'),plt.show()
-        cv.imwrite(r"C:\Users\Saivardhan Baddela\Desktop\Tinder\Match_made.jpg", img3)
+        cv.imwrite("Match_made.jpg", img3)
         """
         Code to like
         
