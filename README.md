@@ -14,7 +14,7 @@ Run this .js script in the console of the Tinder webpage using Inspect to deblur
 Open the Tinder website and run the TinderMatchMaker.py in Python IDE of your choice in the minimised display format.
 
 
-Make sure it does not cover the profile area of the display screen.
+Make sure it does not cover the Tinder profile area on the display screen.
 
 
 This script compares the features of the image that you previously saved from the Matches section with the profile images and looks for the particular match using FLANN based Matcher.
