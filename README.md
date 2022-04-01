@@ -11,10 +11,10 @@ Open the Tinder website and run tinder.user.js file in the console of the web pa
 
 # TinderMatchMaker.py 
 
-Open the Tinder website and run the TinderMatchMaker.py in Python IDE of your choice in the minimised display format.
+Open the Tinder website in full screen and run the TinderMatchMaker.py in Python IDE of your choice in the minimised display format.
 
 
-Make sure it does not cover the Tinder profile area on the display screen.
+Make sure the floating python IDE screen does not cover the Tinder profile area on the display screen.
 
 
 This script compares the features of the previously saved_image from the Matches section with the profile images and looks for the particular match using FLANN based Matcher.
