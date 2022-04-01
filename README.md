@@ -17,7 +17,7 @@ Open the Tinder website and run the TinderMatchMaker.py in Python IDE of your ch
 Make sure it does not cover the Tinder profile area on the display screen.
 
 
-This script compares the features of the image that you previously saved from the Matches section with the profile images and looks for the particular match using FLANN based Matcher.
+This script compares the features of the previously saved_image from the Matches section with the profile images and looks for the particular match using FLANN based Matcher.
 
 
 If the potential match is found it likes the image and makes a Tinder match. Otherwise, it will dislike and check further profiles.
