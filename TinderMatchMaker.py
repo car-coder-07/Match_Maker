@@ -64,7 +64,7 @@ while Match_found == False:
         #move cursor to like position
         #pyautogui.moveTo(1302, 828, 0.2)   # moves mouse to X of 1302, Y of 828 over 0.2 seconds
         pyautogui.click(x=1302, y=828)
-        pyautogui.click(x=1313, y=986) #redendency when profile opens
+        pyautogui.click(x=1313, y=986) #redundency when profile opens
         Match_found = True
         
     else:
@@ -89,7 +89,7 @@ while Match_found == False:
             #move cursor to dislike position
             #pyautogui.moveTo(1302, 828, 0.2)   # moves mouse to X of 1302, Y of 828 over 0.2 seconds
             pyautogui.click(x=1111, y=819)
-            pyautogui.click(x=1097, y=980) #redendency when profile opens
+            pyautogui.click(x=1097, y=980) #redundency when profile opens
             #time.sleep(1)
             img_count = 1
                 
