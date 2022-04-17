@@ -26,5 +26,5 @@ If the potential match is found it likes the image and makes a Tinder match. Oth
 Check for the dimensions of your display and the location of the like, dislike and next image icons in the display and edit those positions in the TinderMatchMaker.py script if necessary.
 
 
-Note: Interrupt the Loop with Sleep command using keyboard.
+Note: Interrupt the Loop with Sleep command using keyboard or by moving curson to any corner of the screen.
 
