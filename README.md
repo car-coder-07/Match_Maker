@@ -20,7 +20,7 @@ Make sure the floating python IDE screen does not cover the Tinder profile area 
 This script compares the features of the previously saved_image from the Matches section with the profile images and looks for the particular match using FLANN based Matcher.
 
 
-If the potential match is found it likes the image and makes a Tinder match. Otherwise, it will dislike and check further profiles.
+If the potential match is found it likes the profile and makes a Tinder match. Otherwise, it will dislike and check further profiles.
 
 
 Check for the dimensions of your display and the location of the like, dislike and next image icons in the display and edit those positions in the TinderMatchMaker.py script if necessary.
