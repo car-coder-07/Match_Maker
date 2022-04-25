@@ -7,7 +7,9 @@ Matches your Tinder profile with the person who liked you.
 Forked from https://gist.github.com/Tajnymag/9de74305f9bb09aa940d26418bd508f1#file-tinder-user-js
 
 
-Open the Tinder website and run tinder.user.js file in the console of the web page using Inspect to deblur the profile image of the person in the Matches section who liked you and save it for feature comparision.
+Open the Tinder website and run tinder.user.js file in the console of the web page using Inspect to deblur the profile image of the person in the Matches section who liked you and snip it using snipping tool for further feature comparision.
+
+Save the image as saved_image.jpg file.
 
 # TinderMatchMaker.py 
 
